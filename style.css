@@ -1,0 +1,45 @@
+
+.header
+{
+font-size: 25px;
+width: 100%;
+margin: 0px;
+color:#FA003F;
+background-color:#2BD9FE;
+animation-name:example;
+animation-duration:2s;
+animation-iteration-count: infinite;
+width:500px;
+height:50px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 10px 10px 100px #fa0070;
+        border-top-left-radius:20%;
+    }
+    to {
+        box-shadow:10px 10px 100px #440381;
+        border-bottom-right-radius:40%;
+    }
+}
+#status
+{
+font-size: 18px;
+color:#a200ff;
+background-color: #b5fffe;
+}
+
+
+
+/*#51E5FF, #440381, #66C7F4, #C589E8, #EA3788, #5F00BA, #FA003F, #2BD9FE, #17BEBB*/
+ 
+body {
+    background-size:cover;
+    background-position: center;
+}
+
+
+canvas {
+    margin-top:50px;
+}
